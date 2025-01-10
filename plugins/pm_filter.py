@@ -37,9 +37,9 @@ async def give_filter(client, message):
         settings = await get_settings(message.chat.id)
         chatid = message.chat.id 
         user_id = message.from_user.id if message.from_user else 0
-        if settings['fsub'] != None:
+        if settings.get['fsub'] !=is not None:
             try:
-                btn = await pub_is_subscribed(client, message, settings['fsub'])
+                btn = await pub_is_subscribed(client, message, settings.get['fsub'])
                 if btn:
                     btn.append([InlineKeyboardButton("Unmute Me 🔕", callback_data=f"unmuteme#{int(user_id)}")])
                     await client.restrict_chat_member(chatid, message.from_user.id, ChatPermissions(can_send_messages=False))
