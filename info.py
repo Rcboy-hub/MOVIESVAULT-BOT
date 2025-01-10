@@ -13,7 +13,7 @@ id_pattern = re.compile(r'^.\d+$')
 SESSION = environ.get('SESSION', 'Moviesvaultbot')
 API_ID = int(environ.get('API_ID', '21772072'))
 API_HASH = environ.get('API_HASH', 'df3c032880b3f1e1bbf712109283f967')
-BOT_TOKEN = environ.get('BOT_TOKEN', " 7457076199:AAFmKCI5xacYg3jvm5vSe3VYx3lL32Wd8Ws")
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
