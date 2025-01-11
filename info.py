@@ -88,7 +88,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/moviesvault1781')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/moviesvaultoffcial https://t.me/moviesscomgroup')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/mediaagalaxy')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'moviesvaultgroup') # Support Chat Link Without https:// or @
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/mediaagalaxy')
@@ -125,7 +125,7 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 
 
 # Shortlink Info
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False)) # Set True Or False
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True)) # Set True Or False
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://tnshort.net/')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'bbfd6f56eb3b64c1bcceea0b147e1440988aa9e6')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/hdmovies2792/9') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
