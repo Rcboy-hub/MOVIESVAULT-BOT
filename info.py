@@ -88,7 +88,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/moviesvaultoffcial https://t.me/moviesscomgroup')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/moviesvaultoffcial')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/mediaagalaxy')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'moviesvaultgroup') # Support Chat Link Without https:// or @
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/mediaagalaxy')
@@ -98,7 +98,7 @@ AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
 PM_SEARCH = bool(environ.get('PM_SEARCH', True))
 BUTTON_MODE = bool(environ.get('BUTTON_MODE', True))
 MAX_BTN = bool(environ.get('MAX_BTN', True))
-IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
+IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 IMDB = bool(environ.get('IMDB', True))
 AUTO_FFILTER = bool(environ.get('AUTO_FFILTER', True))
 AUTO_DELETE = bool(environ.get('AUTO_DELETE', True))
