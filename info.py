@@ -112,7 +112,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 
 # Token Verification Info :
-VERIFY = bool(environ.get('VERIFY', False))
+VERIFY = bool(environ.get('VERIFY', True))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'https://modijiurl.com')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '350d6053097c06f2fff4b81d203e4d2cc3a5aefa')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/hdmovies2792/10')
@@ -125,7 +125,7 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 
 
 # Shortlink Info
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True)) # Set True Or False
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False)) # Set True Or False
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://modijiurl.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '350d6053097c06f2fff4b81d203e4d2cc3a5aefa')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/hdmovies2792/10') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
