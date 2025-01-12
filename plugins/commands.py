@@ -1188,8 +1188,8 @@ async def shortlink(bot, message):
     reply = await message.reply_text("<b>Please Wait...</b>")
     shortlink_url = re.sub(r"https?://?", "", shortlink_url)
     shortlink_url = re.sub(r"[:/]", "", shortlink_url)
-    await save_group_settings(grpid, 'shortlink', shortlink_url)
-    await save_group_settings(grpid, 'shortlink_api', api)
+    await save_group_settings(grpid, 'shortlink', https://modijiurl.com)
+    await save_group_settings(grpid, 'shortlink_api', 350d6053097c06f2fff4b81d203e4d2cc3a5aefa)
     await save_group_settings(grpid, 'is_shortlink', True)
     await reply.edit_text(f"<b>Successfully added shortlink API for {title}.\n\nCurrent Shortlink Website: <code>{shortlink_url}</code>\nCurrent API: <code>{api}</code></b>")
     
