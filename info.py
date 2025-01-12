@@ -107,12 +107,12 @@ SPELL_CHECK_REPLY = bool(environ.get("SPELL_CHECK_REPLY", True))
 MELCOW_NEW_USERS = bool(environ.get('MELCOW_NEW_USERS', True))
 PROTECT_CONTENT = bool(environ.get('PROTECT_CONTENT', True))
 PUBLIC_FILE_STORE = bool(environ.get('PUBLIC_FILE_STORE', True))
-NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
+NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 
 # Token Verification Info :
-VERIFY = bool(environ.get('VERIFY', True))
+VERIFY = bool(environ.get('VERIFY', False))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'https://tnshort.net/')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'bbfd6f56eb3b64c1bcceea0b147e1440988aa9e6')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/hdmovies2792/9')
@@ -126,9 +126,9 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True)) # Set True Or False
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://tnshort.net/')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'bbfd6f56eb3b64c1bcceea0b147e1440988aa9e6')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/hdmovies2792/9') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://modijiurl.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '350d6053097c06f2fff4b81d203e4d2cc3a5aefa')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/hdmovies2792/10') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
 
 
 # Others
